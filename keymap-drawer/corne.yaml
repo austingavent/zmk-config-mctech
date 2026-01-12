@@ -37,7 +37,7 @@ layers:
   - .
   - /
   - '='
-  - LEFT CONTROL
+  - {t: Ctl+LEFT ALT, h: LEFT CONTROL}
   - {t: F13, h: LEFT COMMAND}
   - {t: BACKSPACE, h: LEFT ALT}
   - {t: ␣, h: LEFT SHIFT}
@@ -45,16 +45,16 @@ layers:
   - $$mdi:apple-keyboard-option$$
   LOW:
   - ↹
-  - '1'
-  - '2'
-  - '3'
-  - '4'
-  - '5'
-  - '6'
-  - '7'
-  - '8'
-  - '9'
-  - '0'
+  - {t: '1', h: '!'}
+  - {t: '2', h: '@'}
+  - {t: '3', h: '#'}
+  - {t: '4', h: $}
+  - {t: '5', h: '%'}
+  - {t: '6', h: ^}
+  - {t: '7', h: AMPERSAND}
+  - {t: '8', h: '*'}
+  - {t: '9', h: (}
+  - {t: '0', h: )}
   - $$mdi:backspace-outline$$
   - {t: BT CLR, type: held}
   - BT 1
@@ -90,7 +90,7 @@ layers:
   - ↹
   - '!'
   - '@'
-  - '#'
+  - UP ARROW
   - $
   - '%'
   - ^
@@ -101,9 +101,9 @@ layers:
   - $$mdi:backspace-outline$$
   - $$mdi:apple-keyboard-control$$
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ←
+  - ↓
+  - →
   - {t: ▽, type: trans}
   - '-'
   - '='
